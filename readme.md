@@ -10,7 +10,7 @@ Make sure you have **Node.js** installed.
 
 ```bash
 # Install globally from npm
-npm install -g hytalecli
+npm install -g hytale-cli
 
 # Or from source
 git clone https://github.com/tsuyoi-w/Hytale-cli
@@ -26,7 +26,7 @@ npm link
 ### Create a plugin
 
 ```bash
-hytalecli create <ProjectName>
+hytale create <ProjectName>
 ```
 
 You will be prompted to configure:
@@ -44,7 +44,7 @@ You will be prompted to configure:
 **Example:**
 
 ```bash
-hytalecli create MyPlugin --skip
+hytale create MyPlugin --skip
 ```
 
 This will create a plugin named `MyPlugin` using default settings.
@@ -94,7 +94,7 @@ MyPlugin/
 ## 📝 Quick Example
 
 ```bash
-hytalecli create AwesomePlugin
+hytale create AwesomePlugin
 ```
 
 Answer the prompts:
