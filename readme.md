@@ -1,4 +1,4 @@
-# HytaleCLI ![Version](https://img.shields.io/npm/v/hytalecli?color=blue) ![Downloads](https://img.shields.io/npm/dt/hytalecli?color=green) ![License](https://img.shields.io/github/license/tsuyoi-w/HytaleCLI)
+# HytaleCLI ![Version](https://img.shields.io/npm/v/hytale-cli?color=blue) ![Downloads](https://img.shields.io/npm/dt/hytale-cli?color=green)
 
 HytaleCLI is a **command-line tool** to quickly create plugin templates for **Hytale**. It automates project structure, `Manifest.json` creation, and initial plugin setup.
 
@@ -6,14 +6,14 @@ HytaleCLI is a **command-line tool** to quickly create plugin templates for **Hy
 
 ## 🚀 Installation
 
-Make sure you have **Node.js** installed (v18+ recommended).
+Make sure you have **Node.js** installed.
 
 ```bash
 # Install globally from npm
 npm install -g hytalecli
 
 # Or from source
-git clone https://github.com/tsuyoi-w/HytaleCLI.git
+git clone https://github.com/tsuyoi-w/Hytale-cli
 cd HytaleCLI
 npm install
 npm link
@@ -107,7 +107,7 @@ Choose your plugin Description or let default: My first Hytale plugin
 Choose your plugin Authors or let default: Tsuyoi
 ```
 
-Your project will be automatically created in `./AwesomePlugin`.
+Your project will be automatically created in the current folder`.
 
 ---
 
@@ -118,22 +118,5 @@ Fork the repository, make changes, and submit a **pull request**.
 
 ---
 
-## 📜 License
+**Made by Tsuyoi**
 
-MIT License. See the `LICENSE` file for more details.
-
----
-
-**Made with ❤️ by Tsuyoi**
-
----
-
-## 🔹 Gitignore for Node.js
-
-To ignore `node_modules`, create a `.gitignore` file at the root of your project and add:
-
-```
-node_modules/
-npm-debug.log*
-.DS_Store
-```
